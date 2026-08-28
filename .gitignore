@@ -219,5 +219,17 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-# Anaconda Projects
+# Archivos temporales de Jupyter Notebook
+.ipynb_checkpoints/
+
+# Caché de Python
+__pycache__/
+*.pyc
+
+# Proyectos y caché de Anaconda
 anaconda_projects/
+*.db
+
+# Archivos de entorno virtual (si usas uno en el futuro)
+env/
+venv/
